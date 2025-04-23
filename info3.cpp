@@ -1,13 +1,10 @@
 #include<iostream> 
 using namespace std; 
-int main(){
-// Starting braces of main 
-    //***Variable Declaration*** 
+int main(){ 
     string name, year, department ; 
     char section; 
     int roll_no; 
     float cgpa; 
-    //****Taking user input**** 
     cout<<"Enter your name:"; 
     cin>>name; 
     cout<<"Enter your Roll No.:"; 
@@ -20,8 +17,7 @@ int main(){
     cin>>section; 
     cout<<"What is your CGPA?";
 cin>>cgpa; 
-    cout<<endl<<endl; 
-    //*****Printing Output***** 
+    cout<<endl<<endl;  
     cout<<"\t  My Profile"<<endl; 
     cout<<"Name:"<<name<<"\tRoll No:" 
         <<roll_no<<endl<<"Section:" 
