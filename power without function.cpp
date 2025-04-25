@@ -6,7 +6,7 @@ int main() {
     cin>>base; 
     cout<<"Enter an exponent(integer):"; 
     cin>>exponent; 
-    answer=1;//running product variable 
+    answer=1;
     for(counter=exponent;counter>0;counter=counter-1) 
     { 
         answer=answer*base; 
