@@ -2,8 +2,7 @@
 using namespace std; 
 int main(){    
     double operand1, operand2, result; 
-    char operation; 
-    cout<<"\t***Calculator Program***"; 
+    char operation;  
     cout<<"\nEnter the desired expression"
       <<"with spaces<eg 12.6 + 4.32>"; 
     cin>>operand1>>operation>>operand2; 
