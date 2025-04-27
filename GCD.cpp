@@ -1,4 +1,4 @@
-#include<iostream>  
+#include<iostream>  // using native method
 using namespace std; 
 int main() 
 { 
