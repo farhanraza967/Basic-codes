@@ -1,12 +1,11 @@
 #include <iostream>
 using namespace std;
-
-int main() {
+int main(){
     char ch;
     bool inWord = false;
     int wordCount = 0;
 
-    cout << "Enter text (press Enter then Ctrl+Z to end input on Windows, or Ctrl+D on Linux/Mac):" << endl;
+    cout << "Enter text (press Enter then Ctrl+Z to end input)" << endl;
 
     while (cin.get(ch)) {
         if (ch != ' ' && ch != '\n' && ch != '\t') {
