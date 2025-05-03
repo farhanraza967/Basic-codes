@@ -21,8 +21,8 @@ int main(){
     { 
         result=operand1/operand2; 
     } 
-    if(operation!='+' || operation!='-' || 
-       operation!='*'  || operation!='/' ) 
+    if(operation!='+' && operation!='-' && 
+       operation!='*'  && operation!='/' ) 
     { 
         cout<<"\nInvalid Operator"; 
  
