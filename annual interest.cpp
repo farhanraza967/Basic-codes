@@ -1,6 +1,6 @@
 #include<iostream> 
 using namespace std; 
-int main() 
+int main() {
 double balance, rate; 
 int years; 
 cout<<"What is the starting balance : "; 
