@@ -15,7 +15,7 @@ int main(){
         return 1;
     }
     double sides[3] = {a, b, c};
-    sort(sides, sides + 3); // too make c largest (ascending from a to c))
+    sort(sides, sides + 3); // too make c largest (ascending from a to c)
     double x = sides[0];
     double y = sides[1];
     double z = sides[2];
