@@ -1,23 +1,23 @@
 #include <iostream>
 using namespace std;
-int main() {
-    int num;
-    long long factorial = 1;
+int main(){
+    int n;
+    long long f = 1;
     cout<<"Enter an integer: ";
-    cin>>num;
-    if (num<0) {
+    cin>>n;
+    if (n<0){
         cout<< "Factorial is not defined for negative numbers." << endl;
     }
-    else if (num == 0){
+    else if (n == 0){
         cout << "0! = 1" << endl;
     } else{
-        for (int i=num; i>=1; --i) {
+        for (int i=n; i>=1; --i){
             cout << i;
-            factorial *= i;
+            f*= i;
             if (i > 1)
                 cout << " x ";
         }
-        cout << " = " << factorial << endl;
+        cout << " = " << f<< endl;
     }
     return 0;
 }
