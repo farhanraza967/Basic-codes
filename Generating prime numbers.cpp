@@ -9,13 +9,12 @@ bool isPrime(int num){
     }
     return true;
 }
-int main() {
+int main(){
     int quantity;
     cout << "Enter quantity of prime numbers to generate: ";
     cin >> quantity;
     int count = 0;
     int number = 2;
-
     while (count < quantity){
         if (isPrime(number)){
             cout << number;
