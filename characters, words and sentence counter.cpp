@@ -10,10 +10,8 @@ chinput=getche();
 ch_cnt=ch_cnt+1; 
 if(chinput==' ') 
 {                
-// ASCII value over here 
 word_cnt=word_cnt+1; 
 } 
-// any condition where a sentence ends 
 if((chinput=='.')||(chinput=='?')) 
 { 
 sentence_cnt=sentence_cnt+1; 
